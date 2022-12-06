@@ -1,0 +1,22 @@
+using UnityEngine;
+
+    #ROOTNAMESPACEBEGIN#
+public class #SCRIPTNAME# : MonoBehaviour
+{
+    public static #SCRIPTNAME# instance;
+
+    void Awake()
+    {
+        if(instance == null) 
+        {
+           instance = this;
+        }
+        else
+        {
+           Destroy(gameObject);
+           return;
+        }
+    }
+
+}
+#ROOTNAMESPACEEND#
