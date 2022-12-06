@@ -5,4 +5,5 @@
 
 <h3>Install by Unity Package</h3>
 - Download the latest release and import to unity.
+<br>
 - After that, restart the editor.
